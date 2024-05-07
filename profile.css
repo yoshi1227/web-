@@ -4,8 +4,8 @@ html{
     font-size: 100%;
 }
 body{
-    max-width: 900px;
-    padding: 0% 4%;
+    line-height: 1.7;
+    color: #000;
 }
 a{
     text-decoration: none;
@@ -14,21 +14,35 @@ img{
     max-width: 100%;
 }
 
+/* 共通クラス */
+.wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
 /* ヘッダー部分 */
 
 .page-header{
     display: flex;
     justify-content: space-between;
-
 }
 .logo{
-    
+    width: 130px;
+    margin-top: 14px;
 }
 .main-nav{
     display: flex;
-    text-align: justify;
+    margin-top: 30px;
     list-style-type: none;
 }
 .main-nav li{
     margin-left: 36px;
 }
+.main-nav a{
+    color: #432;
+}
+.main-nav a:hover{
+    color: rgba(68, 51, 34, 0.495);
+}
+
